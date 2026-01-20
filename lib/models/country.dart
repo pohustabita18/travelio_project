@@ -5,13 +5,13 @@ class Country {
   final String imageUrl;
   final String description;
   final List<TravelActivity> activities;
-  bool isFavorite; // <--- CAMP NOU
+  bool isFavorite;
 
   Country({
     required this.name,
     required this.imageUrl,
     required this.description,
     required this.activities,
-    this.isFavorite = false, // <--- Implicit nu este favorita
+    this.isFavorite = false,
   });
 }

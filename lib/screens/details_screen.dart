@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import '../models/travel_activity.dart';
-import '../main.dart';
 import 'edit_activity_screen.dart';
 
 class DetailsScreen extends StatefulWidget {

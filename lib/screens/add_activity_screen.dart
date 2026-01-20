@@ -49,6 +49,7 @@ class _AddActivityScreenState extends State<AddActivityScreen> {
   }
 
   @override
+  /// --- CONSTRUCTORUL ECRANULUI DE ADAUGARE ACTIVITĂȚII ---
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: const Text("Adaugă Atracție Nouă")),
