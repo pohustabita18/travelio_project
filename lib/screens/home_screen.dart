@@ -168,7 +168,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     const Text(
-                      "Descoperă\nLumea cu noi",
+                      "Travelio\nDescoperă\nLumea cu noi",
                       style: TextStyle(
                         fontSize: 34,
                         fontWeight: FontWeight.bold,
@@ -190,6 +190,8 @@ class _HomeScreenState extends State<HomeScreen> {
                           ),
                         ],
                       ),
+
+                      /// Câmpul de căutare
                       child: TextField(
                         onChanged: (value) => _runFilter(value),
                         decoration: const InputDecoration(
@@ -239,6 +241,7 @@ class _HomeScreenState extends State<HomeScreen> {
         ),
       ),
 
+      /// Butonul de adăugare
       floatingActionButton: _selectedIndex == 0
           ? FloatingActionButton(
               onPressed: _navigateToAddScreen,
@@ -248,6 +251,7 @@ class _HomeScreenState extends State<HomeScreen> {
           : null,
       floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
 
+      /// Butonul de adăugare
       bottomNavigationBar: BottomNavigationBar(
         items: const <BottomNavigationBarItem>[
           BottomNavigationBarItem(icon: Icon(Icons.home_filled), label: 'Home'),

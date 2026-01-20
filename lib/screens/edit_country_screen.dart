@@ -16,6 +16,7 @@ class _EditCountryScreenState extends State<EditCountryScreen> {
   late TextEditingController _imageController;
 
   @override
+  /// --- INITIALIZAREA CONTROLLERELOR CU DATELE EXISTENTE ---
   void initState() {
     super.initState();
     // Pre-completam campurile cu datele existente

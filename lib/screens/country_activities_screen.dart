@@ -24,6 +24,7 @@ class _CountryActivitiesScreenState extends State<CountryActivitiesScreen> {
     currentCountry = widget.country;
   }
 
+  /// --- LOGICA DE EDITARE ȚARĂ ---
   void _editCountry() async {
     final updatedData = await Navigator.push(
       context,
@@ -39,6 +40,7 @@ class _CountryActivitiesScreenState extends State<CountryActivitiesScreen> {
     }
   }
 
+  /// --- LOGICA DE ADAUGARE ACTIVITATE ---
   void _addNewActivity() async {
     final newActivity = await Navigator.push(
       context,

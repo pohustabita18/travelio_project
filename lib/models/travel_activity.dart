@@ -9,7 +9,6 @@ class TravelActivity {
   final String suggestedRestaurant;
   final String travelTip;
 
-  // CAMP NOU
   bool isFavorite;
 
   TravelActivity({
@@ -22,6 +21,6 @@ class TravelActivity {
     required this.description,
     required this.suggestedRestaurant,
     required this.travelTip,
-    this.isFavorite = false, // Implicit nu este favorita
+    this.isFavorite = false,
   });
 }

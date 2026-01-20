@@ -36,6 +36,7 @@ class _AddCountryScreenState extends State<AddCountryScreen> {
   }
 
   @override
+  /// --- CONSTRUCTORUL ECRANULUI DE ADAUGARE ȚARĂ ---
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: const Text("Adaugă o Țară Nouă")),

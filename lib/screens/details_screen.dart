@@ -22,6 +22,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
   }
 
   // --- LOGICA FAVORITE (NOU) ---
+  /// Funcția pentru a comuta starea de favorite
   void _toggleFavorite() {
     setState(() {
       currentActivity.isFavorite = !currentActivity.isFavorite;
@@ -43,6 +44,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
   }
 
   // Logica de Editare
+  /// --- FUNCȚIA DE EDITARE A ACTIVITĂȚII ---
   void _editActivity() async {
     final updatedData = await Navigator.push(
       context,
@@ -62,6 +64,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
   }
 
   @override
+  /// --- CONSTRUCTORUL ECRANULUI DE DETALII ---
   Widget build(BuildContext context) {
     return Scaffold(
       body: Column(
@@ -84,6 +87,8 @@ class _DetailsScreenState extends State<DetailsScreen> {
                   },
                 ),
               ),
+
+              /// --- BARA DE SUS ---
               SafeArea(
                 child: Padding(
                   padding: const EdgeInsets.all(10.0),

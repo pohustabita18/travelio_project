@@ -19,6 +19,7 @@ class _EditActivityScreenState extends State<EditActivityScreen> {
   late TextEditingController _tipController;
 
   @override
+  /// --- INITIALIZAREA CONTROLLERELOR CU DATELE EXISTENTE ---
   void initState() {
     super.initState();
     _titleController = TextEditingController(text: widget.activity.title);
@@ -32,6 +33,7 @@ class _EditActivityScreenState extends State<EditActivityScreen> {
     _tipController = TextEditingController(text: widget.activity.travelTip);
   }
 
+  /// --- LOGICA DE SALVARE A MODIFICĂRILOR ---
   void _saveChanges() {
     final updatedActivity = TravelActivity(
       title: _titleController.text,
@@ -51,6 +53,7 @@ class _EditActivityScreenState extends State<EditActivityScreen> {
   }
 
   @override
+  /// --- CONSTRUCTORUL ECRANULUI DE EDITARE ACTIVITATE ---
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: const Text("Editează Activitatea")),
