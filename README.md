@@ -73,14 +73,17 @@ Smartphone: Layout pe o singură coloană, optimizat pentru interacțiunea prin 
 
 ### 🏠 Ecran Principal (Home)
 ![Ecran Principal](screenshots/app_home.png)
+
 *Utilizatorul poate căuta destinații și poate vedea țările disponibile (Italia, Turcia, Spania).*
 
 ### 🏛️ Atracții per Destinație
 ![Atracții Italia](screenshots/destination_attractions.png)
+
 *La selectarea unei țări, sunt afișate atracțiile locale cu prețuri, rating-uri și scurte descrieri.*
 
 ### 🎈 Detalii Activitate
 ![Detalii Activitate](screenshots/activity_details.png)
+
 *Pagina dedicată unei activități specifice (ex: Zbor cu balonul în Cappadocia) care include "Insider Info" și butonul de rezervare.*
 
 
